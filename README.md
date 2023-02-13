@@ -4,3 +4,5 @@
 
 ## Shell permissions
 
+## Shell redirections
+
