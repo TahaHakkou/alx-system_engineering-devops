@@ -1,2 +1,2 @@
 #!/bin/bash
-rm $(ls -Rald *.js | grep '^-' | rev | cut -d ' ' -f1 | rev | tr '\n' ' ')
+rm $(ls -l $(find . -name *.js) | grep '^-' | rev | cut -d ' ' -f1 | rev | tr '\n' ' ')
